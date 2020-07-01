@@ -180,8 +180,8 @@ class HandGesture:
                     cv2.putText(frame, '2', (0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                     
                 elif num_points == 3:
-                    self.count_gesture('ok')
-                    cv2.putText(frame, 'ok', (0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
+                    self.count_gesture('3')
+                    cv2.putText(frame, '3', (0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                             
                 elif num_points == 4:
                     self.count_gesture('4')
