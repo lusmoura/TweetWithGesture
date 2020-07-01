@@ -69,8 +69,8 @@ class HandGesture:
 
         try:
             tweet = random.choice(self.tweets[gesture])
-            # self.api.update_status(tweet)
-            # print('Tweeted', tweet)
+            self.api.update_status(tweet)
+            print('Tweeted', tweet)
         except Exception as e:
             print(str(e))
             return
